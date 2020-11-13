@@ -36,7 +36,6 @@ app.run()
 ![Machine learning](./eslearn/img/machine_learning.png) 
 
 # Core Dependencies 
-The follows will be automatically install if you use "pip install -U easylearn" command    
 
 - sklearn
 - numpy
@@ -97,6 +96,4 @@ If the program runs successfully, some results file will be generated under the 
 #### <center>Classfication weights (top 1%, BrainNet Viewer) </center>
 ![Top classfication weights](./eslearn/img/wei.jpg) 
 <br> <br />
-#### <center>Predicted decision, predicted label and real label</center>
-![Predicted decision, predicted label and real label](./eslearn/img/dec_label.png)  
 
