@@ -1,0 +1,7 @@
+From https://www.cnblogs.com/liyong888/p/9822410.html
+
+1 git checkout dev20180927
+
+2 delete local branch: git branch -d dev20181018 OR git branch -D dev20181018
+
+3 delete remote branch: git push origin --delete dev20181018

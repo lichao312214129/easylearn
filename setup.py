@@ -14,7 +14,7 @@ with open("README_pypi.md", "r") as fh:
 
 setup(
     name='eslearn',
-    version='1.0.4.beta',
+    version='1.0.5.beta',
     description=(
         'This project is designed for machine learning in resting-state fMRI field'
     ),
@@ -51,7 +51,8 @@ setup(
     #     "PyQt5-sip",
     #     "python-dateutil",
     #     "scikit-learn",
-    #     "scipy"
+    #     "scipy",
+    #     "xlrd"
     # ],
 
     include_package_data=True,
