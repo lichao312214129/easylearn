@@ -1060,14 +1060,14 @@ body .markdown-body
 <p>We focus on machine learning rather than data preprocessing. Many software, such as SPM, GRETNA, DPABI, REST, RESTPlus, CCS, FSL, Freesufer, nipy, nipype, nibabel, fmriprep and etc, can be used for data preprocessing.  </p>
 <h1 id="citing-information">Citing information:<a class="headerlink" href="#citing-information" title="Permanent link"></a></h1>
 <p>If you think this software (or some function) is useful, citing the easylearn software in your paper or code would be greatly appreciated!
-Citing link: <a href="https://github.com/easylearn-fmri/easylearn">https://github.com/easylearn-fmri/easylearn</a>  </p>
+Citing link: <a href="https://github.com/lichao312214129/easylearn">https://github.com/lichao312214129/easylearn</a> </p>
 <h1 id="install">Install<a class="headerlink" href="#install" title="Permanent link"></a></h1>
 <div class="codehilite"><pre>pip install eslearn
 </pre></div>
 
 <h1 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link"></a></h1>
-<div class="codehilite"><pre>from eslearn.GUI.easylearn_main_run import main
-main()
+<div class="codehilite"><pre>from eslearn import app
+app.run()
 </pre></div>
 
 <h1 id="gui-preview">GUI preview<a class="headerlink" href="#gui-preview" title="Permanent link"></a></h1>
@@ -1086,11 +1086,11 @@ main()
 <h4 id="machine-learning-interface"><center> Machine learning Interface </center><a class="headerlink" href="#machine-learning-interface" title="Permanent link"></a></h4>
 <p><img alt="Machine learning" src="///D://My_Codes/easylearn/eslearn/img/machine_learning.png" /> </p>
 <h1 id="core-dependencies">Core Dependencies<a class="headerlink" href="#core-dependencies" title="Permanent link"></a></h1>
-<p>The follows will be automatically install if you use &ldquo;pip install -U easylearn&rdquo; command    </p>
 <ul>
 <li>sklearn</li>
 <li>numpy</li>
 <li>pandas</li>
+<li>openpyxl</li>
 <li>python-dateutil</li>
 <li>pytz</li>
 <li>scikit-learn</li>
@@ -1102,15 +1102,12 @@ main()
 <li>matplotlib</li>
 </ul>
 <h1 id="development">Development<a class="headerlink" href="#development" title="Permanent link"></a></h1>
-<p>At present, the project is in the development stage. We hope you can join us! <br />
-Any contributions you make will be appreciated and announced. <br />
-Please refer to <a href="https://github.com/easylearn-fmri/easylearn/tree/master/eslearn/developer">developer link</a> for details.</p>
-<h1 id="_1"><img src="./eslearn/img/easylearn-flow-chart.jpg" width = "1000" height = "1200" div align=left /><a class="headerlink" href="#_1" title="Permanent link"></a></h1>
+<p>We hope you can join us!   </p>
 <blockquote>
 <p>Email: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#108;&#105;&#99;&#104;&#97;&#111;&#49;&#57;&#56;&#55;&#48;&#54;&#49;&#55;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#108;&#105;&#99;&#104;&#97;&#111;&#49;&#57;&#56;&#55;&#48;&#54;&#49;&#55;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a><br />
 Wechat: 13591648206  </p>
 </blockquote>
-<h1 id="initiators">Initiators<a class="headerlink" href="#initiators" title="Permanent link"></a></h1>
+<h1 id="supervisorsconsultants">Supervisors/Consultants<a class="headerlink" href="#supervisorsconsultants" title="Permanent link"></a></h1>
 <h5 id="ke-xu">Ke Xu<a class="headerlink" href="#ke-xu" title="Permanent link"></a></h5>
 <div class="codehilite"><pre>kexu@vip.sina.com  
 Brain Function Research Section, The First Affiliated Hospital of China Medical University, Shenyang, Liaoning, PR China.  
@@ -1118,19 +1115,6 @@ Department of Radiology, The First Affiliated Hospital of China Medical Universi
 </pre></div>
 
 
-<h5 id="chao-li">Chao Li<a class="headerlink" href="#chao-li" title="Permanent link"></a></h5>
-<div class="codehilite"><pre>lichao19870617@gmail.com
-Brain Function Research Section, The First Affiliated Hospital of China Medical University, Shenyang, Liaoning, PR China.
-</pre></div>
-
-
-<h5 id="mengshi-dong">Mengshi Dong<a class="headerlink" href="#mengshi-dong" title="Permanent link"></a></h5>
-<div class="codehilite"><pre>dongmengshi1990@163.com  
-Department of Radiology, The First Affiliated Hospital of China Medical University, Shenyang, Liaoning, PR China.
-</pre></div>
-
-
-<h1 id="supervisorsconsultants">Supervisors/Consultants<a class="headerlink" href="#supervisorsconsultants" title="Permanent link"></a></h1>
 <h5 id="yanqing-tang">Yanqing Tang<a class="headerlink" href="#yanqing-tang" title="Permanent link"></a></h5>
 <div class="codehilite"><pre>yanqingtang@163.com  
 1 Brain Function Research Section, The First Affiliated Hospital of China Medical
@@ -1149,24 +1133,24 @@ Shenyang, Liaoning, PR China.
 
 
 <h1 id="maintainers">Maintainers<a class="headerlink" href="#maintainers" title="Permanent link"></a></h1>
-<h5 id="vacancy-1">Vacancy 1<a class="headerlink" href="#vacancy-1" title="Permanent link"></a></h5>
-<p>Contributors will first add to the <a href="///D://My_Codes/easylearn/eslearn/developer/contributors_list.md">contributors_list.md</a>. Once your contribution is important or more than or equal to 1/4 of the total code, we will add you as a maintainer.  </p>
-<h5 id="vacancy-2">Vacancy 2<a class="headerlink" href="#vacancy-2" title="Permanent link"></a></h5>
-<p>Contributors will first add to the <a href="///D://My_Codes/easylearn/eslearn/developer/contributors_list.md">contributors_list.md</a>. Once your contribution is important or more than or equal to 1/4 of the total code, we will add you as a maintainer. </p>
-<h1 id="contributors">Contributors<a class="headerlink" href="#contributors" title="Permanent link"></a></h1>
-<p>The current contributors are in <a href="///D://My_Codes/easylearn/eslearn/developer/contributors_list.md">contributors_list.md</a>. Once your contribution is important or more than or equal to 1/4 of the total code, we will add you as a maintainer. </p>
-<h1 id="curent-team-members">Curent team members<a class="headerlink" href="#curent-team-members" title="Permanent link"></a></h1>
-<p>The current team members are in <a href="///D://My_Codes/easylearn/eslearn/developer/current_team_members.md">current_team_members.md</a>. If you contributed your code, please add yourself to the contributor list.</p>
+<h5 id="chao-li">Chao Li<a class="headerlink" href="#chao-li" title="Permanent link"></a></h5>
+<div class="codehilite"><pre>lichao19870617@gmail.com
+Brain Function Research Section, The First Affiliated Hospital of China Medical University, Shenyang, Liaoning, PR China.
+</pre></div>
+
+
+<h5 id="mengshi-dong">Mengshi Dong<a class="headerlink" href="#mengshi-dong" title="Permanent link"></a></h5>
+<div class="codehilite"><pre>dongmengshi1990@163.com  
+Department of Radiology, The First Affiliated Hospital of China Medical University, Shenyang, Liaoning, PR China.
+</pre></div>
+
+
+<h1 id="outputs">Outputs<a class="headerlink" href="#outputs" title="Permanent link"></a></h1>
 <p><br> <br />
 If the program runs successfully, some results file will be generated under the results folder (path_out), as follows:</p>
 <h4 id="classification-performances"><center> Classification performances </center><a class="headerlink" href="#classification-performances" title="Permanent link"></a></h4>
-<p><img alt="Classification performances" src="///D://My_Codes/easylearn/eslearn/img/classification_performances.png" /><br />
-<br> <br /></p>
-<h4 id="classification-performances-text-each-row-are-results-of-one-fold-of-the-5-fold-cross-validation"><center>Classification performances (text, each row are results of one fold of the 5-fold cross-validation)</center><a class="headerlink" href="#classification-performances-text-each-row-are-results-of-one-fold-of-the-5-fold-cross-validation" title="Permanent link"></a></h4>
-<p><img alt="wei" src="///D://My_Codes/easylearn/eslearn/img/perf.png" /><br />
-<br> <br /></p>
+<p><img alt="Classification performances" src="///D://My_Codes/easylearn/eslearn/img/classification_performances.png" />  </p>
+<p><br> <br /></p>
 <h4 id="classfication-weights-top-1-brainnet-viewer"><center>Classfication weights (top 1%, BrainNet Viewer) </center><a class="headerlink" href="#classfication-weights-top-1-brainnet-viewer" title="Permanent link"></a></h4>
 <p><img alt="Top classfication weights" src="///D://My_Codes/easylearn/eslearn/img/wei.jpg" /> 
-<br> <br /></p>
-<h4 id="predicted-decision-predicted-label-and-real-label"><center>Predicted decision, predicted label and real label</center><a class="headerlink" href="#predicted-decision-predicted-label-and-real-label" title="Permanent link"></a></h4>
-<p><img alt="Predicted decision, predicted label and real label" src="///D://My_Codes/easylearn/eslearn/img/dec_label.png" />  </p></article></body></html>
+<br> <br /></p></article></body></html>
