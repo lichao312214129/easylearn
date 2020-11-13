@@ -85,6 +85,7 @@ We hope you can join us!
     dongmengshi1990@163.com  
     Department of Radiology, The First Affiliated Hospital of China Medical University, Shenyang, Liaoning, PR China.  
 
+##### Outputs
 <br> <br />
 If the program runs successfully, some results file will be generated under the results folder (path_out), as follows:
 #### <center> Classification performances </center>
