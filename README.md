@@ -89,9 +89,7 @@ We hope you can join us!
 If the program runs successfully, some results file will be generated under the results folder (path_out), as follows:
 #### <center> Classification performances </center>
 ![Classification performances](./eslearn/img/classification_performances.png)  
-<br> <br />
 
-![wei](./eslearn/img/perf.png)  
 <br> <br />
 #### <center>Classfication weights (top 1%, BrainNet Viewer) </center>
 ![Top classfication weights](./eslearn/img/wei.jpg) 
