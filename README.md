@@ -90,7 +90,7 @@ If the program runs successfully, some results file will be generated under the 
 #### <center> Classification performances </center>
 ![Classification performances](./eslearn/img/classification_performances.png)  
 <br> <br />
-#### <center>Classification performances (text, each row are results of one fold of the 5-fold cross-validation)</center>
+
 ![wei](./eslearn/img/perf.png)  
 <br> <br />
 #### <center>Classfication weights (top 1%, BrainNet Viewer) </center>
