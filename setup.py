@@ -51,7 +51,8 @@ setup(
     #     "PyQt5-sip",
     #     "python-dateutil",
     #     "scikit-learn",
-    #     "scipy"
+    #     "scipy",
+    #     "xlrd"
     # ],
 
     include_package_data=True,
