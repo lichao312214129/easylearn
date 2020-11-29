@@ -29,7 +29,7 @@ setup(
     platforms=["all"],
     url='https://github.com/easylearn-fmri/',
     classifiers=[
-        'Development Status :: 2 - Pre-Alpha',
+        'Development Status :: 4 - Beta',
         'License :: OSI Approved :: MIT License',
         'Intended Audience :: Science/Research',
         'Intended Audience :: Education',
