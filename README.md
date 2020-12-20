@@ -86,13 +86,13 @@ We hope you can join us!
     Department of Radiology, The First Affiliated Hospital of China Medical University, Shenyang, Liaoning, PR China.  
 
 # Outputs
+If the program runs successfully, some results file will be generated under the working directory, as follows:
+## <left> Classification performances </left>
+![Classification performances](./eslearn/img/clf.png)  
 <br> <br />
-If the program runs successfully, some results file will be generated under the results folder (path_out), as follows:
-#### <center> Classification performances </center>
-![Classification performances](./eslearn/img/classification_performances.png)  
-
-<br> <br />
-#### <center>Classfication weights (top 1%, BrainNet Viewer) </center>
+## <left>Regression performances</left>
+![Regression performances](./eslearn/img/reg.png)  
+## <left>Classfication weights (top 1%, BrainNet Viewer) </left>
 ![Top classfication weights](./eslearn/img/wei.jpg) 
 <br> <br />
 
