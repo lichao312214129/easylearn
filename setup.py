@@ -14,7 +14,7 @@ with open("README_pypi.md", "r") as fh:
 
 setup(
     name='eslearn',
-    version='1.0.11.beta',
+    version='1.0.13.beta',
     description=(
         'This project is designed for machine learning in resting-state fMRI field'
     ),
@@ -42,13 +42,13 @@ setup(
     install_requires=[
         "imbalanced-learn",
         "joblib",
-        "matplotlib==3.3.0",
+        "matplotlib",
         "nibabel",
         "numpy",
         "openpyxl",
         "xlrd==1.2.0",
         "pandas",
-        "PyQt5",
+        "PyQt5==5.12",
         "PyQt5-sip",
         "python-dateutil",
         "scikit-learn",
