@@ -14,8 +14,8 @@ from eslearn.base import BaseMachineLearning, DataLoader
 from eslearn.machine_learning.regression.regression import Regression
 
 
-# x, y = datasets.make_regression(n_samples=500, n_informative=3, n_features=5, random_state=1)
-# x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.30, random_state=42)
+x, y = datasets.make_regression(n_samples=500, n_informative=3, n_features=5, random_state=1)
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.30, random_state=42)
 
 # x1 = pd.DataFrame([])
 # x1["__ID__"] = [i for i in range(500)]
@@ -29,7 +29,7 @@ from eslearn.machine_learning.regression.regression import Regression
 
 def test_regression():
     time_start = time.time()
-    reg = Regression(configuration_file=r"D:\My_Codes\lc_private_codes\The_first_ml_training\demo_data/regression.json",
+    reg = Regression(configuration_file="./test.json",
                      out_dir="./")
     reg.main_run()
     print(reg.method_model_evaluation_)
