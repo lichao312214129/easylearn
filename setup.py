@@ -53,7 +53,7 @@ setup(
         "python-dateutil",
         "scikit-learn",
         "scipy",
-        'seaborn==0.11.0'
+        'seaborn'
     ],
 
     include_package_data=True,
