@@ -914,7 +914,6 @@ class DataLoader():
                 # raise ValueError(f"The targets of {gk} did not have '__ID__' column, check your targets") 
                 print(f"The targets of {gk} did not have '__ID__' column, easylearn take the first column as ID\n") 
                 # Take the first column as __ID__, and the second column as __Targets__
-                # TODO: if users only give __ID__ to ID, but not give __Targets__ to targets
                 targets[gk].columns = ["__ID__", "__Targets__"] 
             elif isinstance(targets[gk], np.ndarray):
                 targets[gk] = pd.DataFrame(targets[gk])

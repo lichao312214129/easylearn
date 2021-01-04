@@ -5,7 +5,6 @@
 """
 
 
-
 def run():
     from eslearn.GUI.easylearn_main_run import main
     main()# Build
