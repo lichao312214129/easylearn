@@ -14,7 +14,7 @@ with open("README_pypi.md", "r") as fh:
 
 setup(
     name='eslearn',
-    version='1.0.17',
+    version='1.0.18',
     description=(
         'This project is designed for machine learning in resting-state fMRI field'
     ),
@@ -44,7 +44,7 @@ setup(
         "joblib",
         "matplotlib",
         "nibabel",
-        "numpy",
+        "numpy==",
         "openpyxl",
         "xlrd==1.2.0",
         "pandas",
