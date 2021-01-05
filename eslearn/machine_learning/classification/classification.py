@@ -73,7 +73,7 @@ class Classification(BaseMachineLearning, DataLoader, BaseClassification):
             self.fit_(self.model_, feature_train, target_train, self.memory)
             
             # Weights
-            weights_, _ = self.get_weights_(feature_train, target_train)
+            _, weights_ = self.get_weights_(feature_train, target_train)
             
             # Predict
             y_pred, y_prob = self.predict_(self.model_, feature_test)
