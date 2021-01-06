@@ -44,7 +44,7 @@ setup(
         "joblib",
         "matplotlib",
         "nibabel",
-        "numpy==",
+        "numpy==1.19.3",
         "openpyxl",
         "xlrd==1.2.0",
         "pandas",
