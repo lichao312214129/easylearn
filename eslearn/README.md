@@ -52,17 +52,28 @@ The follows will be automatically install if you use "pip install -U easylearn" 
 - matplotlib
 
 # Development    
-We hope you can join us!   
+At present, the project is in the development stage. We hope you can join us!   
+Any contributions you make will be appreciated and announced.   
+Please refer to [developer link](https://github.com/easylearn-fmri/easylearn/tree/master/developer) for details.
+# <img src="./img/easylearn-flow-chart.jpg" width = "1000" height = "1200" div align=left />
 > Email: lichao19870617@gmail.com  
 > Wechat: 13591648206  
 
-# Supervisors/Consultants 
-
+# Initiators
 ##### Ke Xu
     kexu@vip.sina.com  
     Brain Function Research Section, The First Affiliated Hospital of China Medical University, Shenyang, Liaoning, PR China.  
     Department of Radiology, The First Affiliated Hospital of China Medical University.
 
+##### Chao Li
+    lichao19870617@gmail.com
+    Brain Function Research Section, The First Affiliated Hospital of China Medical University, Shenyang, Liaoning, PR China.  
+    
+##### Mengshi Dong
+    dongmengshi1990@163.com  
+    Department of Radiology, The First Affiliated Hospital of China Medical University, Shenyang, Liaoning, PR China.   
+
+# Supervisors/Consultants 
 ##### Yanqing Tang  
     yanqingtang@163.com  
     1 Brain Function Research Section, The First Affiliated Hospital of China Medical
@@ -77,13 +88,18 @@ We hope you can join us!
     3 IDG/McGovern Institute for Brain Research, Beijing Normal University, Beijing 100875, China 
 
 # Maintainers
-##### Chao Li
-    lichao19870617@gmail.com
-    Brain Function Research Section, The First Affiliated Hospital of China Medical University, Shenyang, Liaoning, PR China.  
-    
-##### Mengshi Dong
-    dongmengshi1990@163.com  
-    Department of Radiology, The First Affiliated Hospital of China Medical University, Shenyang, Liaoning, PR China.  
+##### Vacancy 1   
+Contributors will first add to the [contributors_list.md](./developer/contributors_list.md). Once your contribution is important or more than or equal to 1/4 of the total code, we will add you as a maintainer.  
+
+##### Vacancy 2  
+Contributors will first add to the [contributors_list.md](./developer/contributors_list.md). Once your contribution is important or more than or equal to 1/4 of the total code, we will add you as a maintainer. 
+
+# Contributors  
+The current contributors are in [contributors_list.md](./developer/contributors_list.md). Once your contribution is important or more than or equal to 1/4 of the total code, we will add you as a maintainer. 
+
+# Curent team members
+The current team members are in [current_team_members.md](./developer/current_team_members.md). If you contributed your code, please add yourself to the contributor list.
+
 
 # Results
 If the program runs successfully, some results file will be generated under the working directory, as follows:
@@ -96,3 +112,7 @@ If the program runs successfully, some results file will be generated under the 
 ![Top classfication weights](./img/wei.jpg) 
 <br> <br />
 
+# New features in the next version
+- Add evaluation method in the model_evaluation module for multiple-class classification
+- Add user-defined cross-validation in the model_evaluation module.
+- Add Decision Curve Analysis plot in the model_evaluation module.

@@ -8,13 +8,13 @@ Citing link: https://github.com/lichao312214129/easylearn
 
 # Install  
 ```
-pip install eslearn
+pip install -U eslearn
 ```
 
 # Usage
 ```
-from eslearn import app
-app.run()
+import eslearn as el
+el.run()
 ```
 
 # Development    

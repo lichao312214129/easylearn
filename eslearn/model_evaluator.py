@@ -225,6 +225,8 @@ class ModelEvaluator():
         #     ax[1][1].set_title("Calibration curves", fontsize=12, fontweight='bold')
         #     ax[1][1].set_ylim([-0.05, 1.05])
 
+        # TODO: add DCA
+        
         # Save figure to PDF file
         plt.tight_layout()
         plt.subplots_adjust(wspace = 0.3, hspace = 0.4)
