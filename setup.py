@@ -14,7 +14,7 @@ with open("README_pypi.md", "r") as fh:
 
 setup(
     name='eslearn',
-    version='1.0.18',
+    version='1.0.19',
     description=(
         'This project is designed for machine learning in resting-state fMRI field'
     ),
