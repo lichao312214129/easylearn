@@ -187,12 +187,14 @@ class ModelEvaluator():
             
             bid = np.arange(0,len(performances))
             for (ibar, perf_, std_) in zip (bid, performances, std):
-                ax[2].text(ibar, 0.2, f"{perf_:.2f}±{std_:.2f}", rotation=90) 
+                ax[2].text(ibar, 0.1, f"{perf_:.2f}±{std_:.2f}", rotation=90) 
         else:
             performances = [accuracy, sensitivity, specificity, auc]
             ax[2].bar(np.arange(0, len(performances)), performances, linewidth=2, color='darkturquoise')
             
-            [ax[2].text(ibar,0.2, f"{perf_:.2f}", rotation=0) for (ibar, perf_) in zip (performances, np.arange(0,len(performances)))]
+            bid = np.arange(0,len(performances))
+            for (ibar, perf_) in zip (bid, performances):
+                ax[2].text(ibar, 0.1, f"{perf_:.2f}", rotation=90) 
 
         ax[2].tick_params(labelsize=12)
         ax[2].set_title('Classification performances', fontsize=12, fontweight='bold')
@@ -225,8 +227,6 @@ class ModelEvaluator():
         #     ax[1][1].set_title("Calibration curves", fontsize=12, fontweight='bold')
         #     ax[1][1].set_ylim([-0.05, 1.05])
 
-        # TODO: add DCA
-        
         # Save figure to PDF file
         plt.tight_layout()
         plt.subplots_adjust(wspace = 0.3, hspace = 0.4)
@@ -237,8 +237,8 @@ class ModelEvaluator():
             
         if is_showfig:
             plt.show()
-            plt.pause(5)
-            plt.close()
+            # plt.pause(5)
+            # plt.close()
 
         return accuracy, sensitivity, specificity, auc, confusion_matrix_values
 

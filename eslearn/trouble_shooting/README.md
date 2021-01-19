@@ -113,3 +113,14 @@ pip install --user Package
 
 #### 问题发现和提供解决方案者  
 旷野的神
+
+-----
+# 问题12
+ImportError: C extension: No module named 'pandas._libs.interval' not built. If you want to import pandas from the source directory, you may need to run 'python setup.py build_ext --inplace --force' to build the C extensions first.
+
+#### 解决方法  
+pip uninstall pandas  
+pip install pandas
+
+#### 问题发现和提供解决方案者  
+旷野的神
