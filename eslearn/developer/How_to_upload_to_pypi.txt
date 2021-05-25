@@ -1,5 +1,5 @@
 # Build
-python setup.py sdist bdist_wheelMarkdownLivePreview
+python setup.py sdist bdist_wheel
 
 # upload
 twine upload dist/*
