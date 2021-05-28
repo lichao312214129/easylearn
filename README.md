@@ -112,6 +112,12 @@ If the program runs successfully, some results file will be generated under the 
 ![Top classfication weights](./img/wei.jpg) 
 <br> <br />
 
+# History
+- version 1.0.28: Updated binomial test
+- version 1.0.29: Fixed error when generating targets
+> When the input target is a int, eslearn will automatically generate __ID__(np.arange(0,len(nFiles))).
+
+
 # New features in the next version
 - Add evaluation method in the model_evaluation module for multiple-class classification
 - Add user-defined cross-validation in the model_evaluation module.

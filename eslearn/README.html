@@ -1,4 +1,4 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><style>body {
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>body {
   max-width: 980px;
   border: 1px solid #ddd;
   outline: 1300px solid #fff;
@@ -118,28 +118,23 @@ body .markdown-body
   padding: 0;
 }
 
-.markdown-body .codehilitetable,
-.markdown-body .highlighttable {
+.markdown-body .codehilitetable {
   border: 0;
   border-spacing: 0;
 }
 
-.markdown-body .codehilitetable tr,
-.markdown-body .highlighttable {
+.markdown-body .codehilitetable tr {
   border: 0;
 }
 
 .markdown-body .codehilitetable pre,
-.markdown-body .codehilitetable div.codehilite,
-.markdown-body .highlighttable pre,
-.markdown-body .highlighttable div.highlight {
+.markdown-body .codehilitetable div.codehilite {
   margin: 0;
 }
 
 .markdown-body .linenos,
 .markdown-body .code,
-.markdown-body .codehilitetable td,
-.markdown-body .highlighttable td {
+.markdown-body .codehilitetable td {
   border: 0;
   padding: 0;
 }
@@ -522,13 +517,11 @@ body .markdown-body
   border: 0;
 }
 
-.markdown-body .codehilite,
-.markdown-body .highlight {
+.markdown-body .codehilite {
   margin-bottom: 16px;
 }
 
 .markdown-body .codehilite pre,
-.markdown-body .highlight pre,
 .markdown-body pre {
   padding: 16px;
   overflow: auto;
@@ -538,8 +531,7 @@ body .markdown-body
   border-radius: 3px;
 }
 
-.markdown-body .codehilite pre,
-.markdown-body .highlight pre {
+.markdown-body .codehilite pre {
   margin-bottom: 0;
   word-break: normal;
 }
@@ -849,7 +841,7 @@ body .markdown-body
     inset 0 -12px 0 rgba(0, 0, 0, .05);
 }
 
-/* MultiMarkdown Critic Blocks */
+/* Multimarkdown Critic Blocks */
 .markdown-body .critic_mark {
   background: #ff0;
 }
@@ -1000,99 +992,99 @@ body .markdown-body
     page-break-after: avoid;
   }
 }
-</style><style>/*GitHub*/
-.highlight {background-color:#fff;color:#333333;}
-.highlight .hll {background-color:#ffffcc;}
-.highlight .c{color:#999988;font-style:italic}
-.highlight .err{color:#a61717;background-color:#e3d2d2}
-.highlight .k{font-weight:bold}
-.highlight .o{font-weight:bold}
-.highlight .cm{color:#999988;font-style:italic}
-.highlight .cp{color:#999999;font-weight:bold}
-.highlight .c1{color:#999988;font-style:italic}
-.highlight .cs{color:#999999;font-weight:bold;font-style:italic}
-.highlight .gd{color:#000000;background-color:#ffdddd}
-.highlight .ge{font-style:italic}
-.highlight .gr{color:#aa0000}
-.highlight .gh{color:#999999}
-.highlight .gi{color:#000000;background-color:#ddffdd}
-.highlight .go{color:#888888}
-.highlight .gp{color:#555555}
-.highlight .gs{font-weight:bold}
-.highlight .gu{color:#800080;font-weight:bold}
-.highlight .gt{color:#aa0000}
-.highlight .kc{font-weight:bold}
-.highlight .kd{font-weight:bold}
-.highlight .kn{font-weight:bold}
-.highlight .kp{font-weight:bold}
-.highlight .kr{font-weight:bold}
-.highlight .kt{color:#445588;font-weight:bold}
-.highlight .m{color:#009999}
-.highlight .s{color:#dd1144}
-.highlight .n{color:#333333}
-.highlight .na{color:teal}
-.highlight .nb{color:#0086b3}
-.highlight .nc{color:#445588;font-weight:bold}
-.highlight .no{color:teal}
-.highlight .ni{color:purple}
-.highlight .ne{color:#990000;font-weight:bold}
-.highlight .nf{color:#990000;font-weight:bold}
-.highlight .nn{color:#555555}
-.highlight .nt{color:navy}
-.highlight .nv{color:teal}
-.highlight .ow{font-weight:bold}
-.highlight .w{color:#bbbbbb}
-.highlight .mf{color:#009999}
-.highlight .mh{color:#009999}
-.highlight .mi{color:#009999}
-.highlight .mo{color:#009999}
-.highlight .sb{color:#dd1144}
-.highlight .sc{color:#dd1144}
-.highlight .sd{color:#dd1144}
-.highlight .s2{color:#dd1144}
-.highlight .se{color:#dd1144}
-.highlight .sh{color:#dd1144}
-.highlight .si{color:#dd1144}
-.highlight .sx{color:#dd1144}
-.highlight .sr{color:#009926}
-.highlight .s1{color:#dd1144}
-.highlight .ss{color:#990073}
-.highlight .bp{color:#999999}
-.highlight .vc{color:teal}
-.highlight .vg{color:teal}
-.highlight .vi{color:teal}
-.highlight .il{color:#009999}
-.highlight .gc{color:#999;background-color:#EAF2F5}
+</style><style>/*github*/
+.codehilite {background-color:#fff;color:#333333;}
+.codehilite .hll {background-color:#ffffcc;}
+.codehilite .c{color:#999988;font-style:italic}
+.codehilite .err{color:#a61717;background-color:#e3d2d2}
+.codehilite .k{font-weight:bold}
+.codehilite .o{font-weight:bold}
+.codehilite .cm{color:#999988;font-style:italic}
+.codehilite .cp{color:#999999;font-weight:bold}
+.codehilite .c1{color:#999988;font-style:italic}
+.codehilite .cs{color:#999999;font-weight:bold;font-style:italic}
+.codehilite .gd{color:#000000;background-color:#ffdddd}
+.codehilite .ge{font-style:italic}
+.codehilite .gr{color:#aa0000}
+.codehilite .gh{color:#999999}
+.codehilite .gi{color:#000000;background-color:#ddffdd}
+.codehilite .go{color:#888888}
+.codehilite .gp{color:#555555}
+.codehilite .gs{font-weight:bold}
+.codehilite .gu{color:#800080;font-weight:bold}
+.codehilite .gt{color:#aa0000}
+.codehilite .kc{font-weight:bold}
+.codehilite .kd{font-weight:bold}
+.codehilite .kn{font-weight:bold}
+.codehilite .kp{font-weight:bold}
+.codehilite .kr{font-weight:bold}
+.codehilite .kt{color:#445588;font-weight:bold}
+.codehilite .m{color:#009999}
+.codehilite .s{color:#dd1144}
+.codehilite .n{color:#333333}
+.codehilite .na{color:teal}
+.codehilite .nb{color:#0086b3}
+.codehilite .nc{color:#445588;font-weight:bold}
+.codehilite .no{color:teal}
+.codehilite .ni{color:purple}
+.codehilite .ne{color:#990000;font-weight:bold}
+.codehilite .nf{color:#990000;font-weight:bold}
+.codehilite .nn{color:#555555}
+.codehilite .nt{color:navy}
+.codehilite .nv{color:teal}
+.codehilite .ow{font-weight:bold}
+.codehilite .w{color:#bbbbbb}
+.codehilite .mf{color:#009999}
+.codehilite .mh{color:#009999}
+.codehilite .mi{color:#009999}
+.codehilite .mo{color:#009999}
+.codehilite .sb{color:#dd1144}
+.codehilite .sc{color:#dd1144}
+.codehilite .sd{color:#dd1144}
+.codehilite .s2{color:#dd1144}
+.codehilite .se{color:#dd1144}
+.codehilite .sh{color:#dd1144}
+.codehilite .si{color:#dd1144}
+.codehilite .sx{color:#dd1144}
+.codehilite .sr{color:#009926}
+.codehilite .s1{color:#dd1144}
+.codehilite .ss{color:#990073}
+.codehilite .bp{color:#999999}
+.codehilite .vc{color:teal}
+.codehilite .vg{color:teal}
+.codehilite .vi{color:teal}
+.codehilite .il{color:#009999}
+.codehilite .gc{color:#999;background-color:#EAF2F5}
 </style><title>README</title></head><body><article class="markdown-body"><h1 id="make-machine-learning-easy"><img src="./logo/logo-lower.jpg" width = "200" height = "60" div align=left />  <font size=10>Make machine learning easy!</font><a class="headerlink" href="#make-machine-learning-easy" title="Permanent link"></a></h1>
 <p>Easylearn is designed for machine learning mainly in resting-state fMRI, radiomics and other fields (such as EEG). Easylearn is built on top of scikit-learn, pytorch and other packages. Easylearn can assist doctors and researchers who have limited coding experience to easily realize machine learning, e.g., (MR/CT/PET/EEG)imaging-marker- or other biomarker-based disease diagnosis and prediction, treatment response prediction, disease subtyping, dimensional decoding for transdiagnostic psychiatric diseases or other diseases, disease mechanism exploration and etc.  </p>
 <p>We focus on machine learning rather than data preprocessing. Many software, such as SPM, GRETNA, DPABI, REST, RESTPlus, CCS, FSL, Freesufer, nipy, nipype, nibabel, fmriprep and etc, can be used for data preprocessing.  </p>
 <h1 id="citing-information">Citing information:<a class="headerlink" href="#citing-information" title="Permanent link"></a></h1>
 <p>If you think this software (or some function) is useful, citing the easylearn software in your paper or code would be greatly appreciated!
-Citing link: <a class="magiclink magiclink-github magiclink-repository" href="https://github.com/easylearn-fmri/easylearn" title="GitHub Repository: easylearn-fmri/easylearn">easylearn-fmri/easylearn</a>  </p>
+Citing link: <a href="https://github.com/easylearn-fmri/easylearn">https://github.com/easylearn-fmri/easylearn</a>  </p>
 <h1 id="install">Install<a class="headerlink" href="#install" title="Permanent link"></a></h1>
-<div class="highlight"><pre>pip install -U eslearn
+<div class="codehilite"><pre>pip install eslearn
 </pre></div>
 
 <h1 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link"></a></h1>
-<div class="highlight"><pre>import eslearn as el
-el.run()
+<div class="codehilite"><pre>from eslearn import app
+app.run()
 </pre></div>
 
 <h1 id="gui-preview">GUI preview<a class="headerlink" href="#gui-preview" title="Permanent link"></a></h1>
 <h4 id="main-interface">Main Interface<a class="headerlink" href="#main-interface" title="Permanent link"></a></h4>
-<p><img alt="Main Window" src="/D:/software/easylearn/eslearn/img/GUI_main.png" />  </p>
+<p><img alt="Main Window" src="///D://My_Codes/virtualenv_eslearn/Lib/site-packages/eslearn/img/GUI_main.png" />  </p>
 <h4 id="data-loading-interface"><center> Data loading Interface </center><a class="headerlink" href="#data-loading-interface" title="Permanent link"></a></h4>
-<p><img alt="Data loading" src="/D:/software/easylearn/eslearn/img/GUI_data_loading.png" />    </p>
+<p><img alt="Data loading" src="///D://My_Codes/virtualenv_eslearn/Lib/site-packages/eslearn/img/GUI_data_loading.png" />    </p>
 <h4 id="feature-engineering-interface-feature-preprocessing"><center> Feature engineering Interface (feature preprocessing) </center><a class="headerlink" href="#feature-engineering-interface-feature-preprocessing" title="Permanent link"></a></h4>
-<p><img alt="Featur engineering" src="/D:/software/easylearn/eslearn/img/preprocessing.png" />   </p>
+<p><img alt="Featur engineering" src="///D://My_Codes/virtualenv_eslearn/Lib/site-packages/eslearn/img/preprocessing.png" />   </p>
 <h4 id="feature-engineering-interface-dimension-reduction"><center> Feature engineering Interface (dimension reduction) </center><a class="headerlink" href="#feature-engineering-interface-dimension-reduction" title="Permanent link"></a></h4>
-<p><img alt="Featur engineering" src="/D:/software/easylearn/eslearn/img/dimreduction.png" />   </p>
+<p><img alt="Featur engineering" src="///D://My_Codes/virtualenv_eslearn/Lib/site-packages/eslearn/img/dimreduction.png" />   </p>
 <h4 id="feature-engineering-interface-feature-selection"><center> Feature engineering Interface (feature selection) </center><a class="headerlink" href="#feature-engineering-interface-feature-selection" title="Permanent link"></a></h4>
-<p><img alt="Featur engineering" src="/D:/software/easylearn/eslearn/img/feature_selection.png" />   </p>
+<p><img alt="Featur engineering" src="///D://My_Codes/virtualenv_eslearn/Lib/site-packages/eslearn/img/feature_selection.png" />   </p>
 <h4 id="feature-engineering-interface-unbalance-treatment"><center> Feature engineering Interface (unbalance treatment) </center><a class="headerlink" href="#feature-engineering-interface-unbalance-treatment" title="Permanent link"></a></h4>
-<p><img alt="Featur engineering" src="/D:/software/easylearn/eslearn/img/unbalance_treatment.png" /> </p>
+<p><img alt="Featur engineering" src="///D://My_Codes/virtualenv_eslearn/Lib/site-packages/eslearn/img/unbalance_treatment.png" /> </p>
 <h4 id="machine-learning-interface"><center> Machine learning Interface </center><a class="headerlink" href="#machine-learning-interface" title="Permanent link"></a></h4>
-<p><img alt="Machine learning" src="/D:/software/easylearn/eslearn/img/machine_learning.png" /> </p>
+<p><img alt="Machine learning" src="///D://My_Codes/virtualenv_eslearn/Lib/site-packages/eslearn/img/machine_learning.png" /> </p>
 <h1 id="core-dependencies">Core Dependencies<a class="headerlink" href="#core-dependencies" title="Permanent link"></a></h1>
 <p>The follows will be automatically install if you use &ldquo;pip install -U easylearn&rdquo; command    </p>
 <ul>
@@ -1120,58 +1112,58 @@ Wechat: 13591648206  </p>
 </blockquote>
 <h1 id="initiators">Initiators<a class="headerlink" href="#initiators" title="Permanent link"></a></h1>
 <h5 id="ke-xu">Ke Xu<a class="headerlink" href="#ke-xu" title="Permanent link"></a></h5>
-<pre><code>kexu@vip.sina.com  
+<div class="codehilite"><pre>kexu@vip.sina.com  
 Brain Function Research Section, The First Affiliated Hospital of China Medical University, Shenyang, Liaoning, PR China.  
 Department of Radiology, The First Affiliated Hospital of China Medical University.
-</code></pre>
+</pre></div>
+
+
 <h5 id="chao-li">Chao Li<a class="headerlink" href="#chao-li" title="Permanent link"></a></h5>
-<pre><code>lichao19870617@gmail.com
+<div class="codehilite"><pre>lichao19870617@gmail.com
 Brain Function Research Section, The First Affiliated Hospital of China Medical University, Shenyang, Liaoning, PR China.
-</code></pre>
+</pre></div>
+
+
 <h5 id="mengshi-dong">Mengshi Dong<a class="headerlink" href="#mengshi-dong" title="Permanent link"></a></h5>
-<pre><code>dongmengshi1990@163.com  
+<div class="codehilite"><pre>dongmengshi1990@163.com  
 Department of Radiology, The First Affiliated Hospital of China Medical University, Shenyang, Liaoning, PR China.
-</code></pre>
+</pre></div>
+
+
 <h1 id="supervisorsconsultants">Supervisors/Consultants<a class="headerlink" href="#supervisorsconsultants" title="Permanent link"></a></h1>
 <h5 id="yanqing-tang">Yanqing Tang<a class="headerlink" href="#yanqing-tang" title="Permanent link"></a></h5>
-<pre><code>yanqingtang@163.com  
+<div class="codehilite"><pre>yanqingtang@163.com  
 1 Brain Function Research Section, The First Affiliated Hospital of China Medical
 University, Shenyang, Liaoning, PR China.  
 2 Department of Psychiatry, The First Affiliated Hospital of China Medical University,
 Shenyang, Liaoning, PR China.
-</code></pre>
+</pre></div>
+
+
 <h5 id="yong-he">Yong He<a class="headerlink" href="#yong-he" title="Permanent link"></a></h5>
-<pre><code>yong.he@bnu.edu.cn  
+<div class="codehilite"><pre>yong.he@bnu.edu.cn  
 1 National Key Laboratory of Cognitive Neuroscience and Learning, Beijing Normal University, Beijing 100875, China  
 2 Beijing Key Laboratory of Brain Imaging and Connectomics, Beijing Normal University, Beijing 100875, China  
 3 IDG/McGovern Institute for Brain Research, Beijing Normal University, Beijing 100875, China
-</code></pre>
+</pre></div>
+
+
 <h1 id="maintainers">Maintainers<a class="headerlink" href="#maintainers" title="Permanent link"></a></h1>
 <h5 id="vacancy-1">Vacancy 1<a class="headerlink" href="#vacancy-1" title="Permanent link"></a></h5>
-<p>Contributors will first add to the <a href="/D:/software/easylearn/eslearn/developer/contributors_list.md">contributors_list.md</a>. Once your contribution is important or more than or equal to 1/4 of the total code, we will add you as a maintainer.  </p>
+<p>Contributors will first add to the <a href="///D://My_Codes/virtualenv_eslearn/Lib/site-packages/eslearn/developer/contributors_list.md">contributors_list.md</a>. Once your contribution is important or more than or equal to 1/4 of the total code, we will add you as a maintainer.  </p>
 <h5 id="vacancy-2">Vacancy 2<a class="headerlink" href="#vacancy-2" title="Permanent link"></a></h5>
-<p>Contributors will first add to the <a href="/D:/software/easylearn/eslearn/developer/contributors_list.md">contributors_list.md</a>. Once your contribution is important or more than or equal to 1/4 of the total code, we will add you as a maintainer. </p>
+<p>Contributors will first add to the <a href="///D://My_Codes/virtualenv_eslearn/Lib/site-packages/eslearn/developer/contributors_list.md">contributors_list.md</a>. Once your contribution is important or more than or equal to 1/4 of the total code, we will add you as a maintainer. </p>
 <h1 id="contributors">Contributors<a class="headerlink" href="#contributors" title="Permanent link"></a></h1>
-<p>The current contributors are in <a href="/D:/software/easylearn/eslearn/developer/contributors_list.md">contributors_list.md</a>. Once your contribution is important or more than or equal to 1/4 of the total code, we will add you as a maintainer. </p>
+<p>The current contributors are in <a href="///D://My_Codes/virtualenv_eslearn/Lib/site-packages/eslearn/developer/contributors_list.md">contributors_list.md</a>. Once your contribution is important or more than or equal to 1/4 of the total code, we will add you as a maintainer. </p>
 <h1 id="curent-team-members">Curent team members<a class="headerlink" href="#curent-team-members" title="Permanent link"></a></h1>
-<p>The current team members are in <a href="/D:/software/easylearn/eslearn/developer/current_team_members.md">current_team_members.md</a>. If you contributed your code, please add yourself to the contributor list.</p>
+<p>The current team members are in <a href="///D://My_Codes/virtualenv_eslearn/Lib/site-packages/eslearn/developer/current_team_members.md">current_team_members.md</a>. If you contributed your code, please add yourself to the contributor list.</p>
 <h1 id="results">Results<a class="headerlink" href="#results" title="Permanent link"></a></h1>
 <p>If the program runs successfully, some results file will be generated under the working directory, as follows:</p>
 <h2 id="classification-performances"><left> Classification performances </left><a class="headerlink" href="#classification-performances" title="Permanent link"></a></h2>
-<p><img alt="Classification performances" src="/D:/software/easylearn/eslearn/img/clf.png" /><br />
+<p><img alt="Classification performances" src="///D://My_Codes/virtualenv_eslearn/Lib/site-packages/eslearn/img/clf.png" /><br />
 <br> <br /></p>
 <h2 id="regression-performances"><left>Regression performances</left><a class="headerlink" href="#regression-performances" title="Permanent link"></a></h2>
-<p><img alt="Regression performances" src="/D:/software/easylearn/eslearn/img/reg.png" />  </p>
+<p><img alt="Regression performances" src="///D://My_Codes/virtualenv_eslearn/Lib/site-packages/eslearn/img/reg.png" />  </p>
 <h2 id="classfication-weights-top-1-brainnet-viewer"><left>Classfication weights (top 1%, BrainNet Viewer) </left><a class="headerlink" href="#classfication-weights-top-1-brainnet-viewer" title="Permanent link"></a></h2>
-<p><img alt="Top classfication weights" src="/D:/software/easylearn/eslearn/img/wei.jpg" /> 
-<br> <br /></p>
-<h1 id="history">History<a class="headerlink" href="#history" title="Permanent link"></a></h1>
-<h2 id="version-1027">version 1.0.27:<a class="headerlink" href="#version-1027" title="Permanent link"></a></h2>
-<hr />
-<h1 id="new-features-in-the-next-version">New features in the next version<a class="headerlink" href="#new-features-in-the-next-version" title="Permanent link"></a></h1>
-<ul>
-<li>Add evaluation method in the model_evaluation module for multiple-class classification</li>
-<li>Add user-defined cross-validation in the model_evaluation module.</li>
-<li>Add Decision Curve Analysis plot in the model_evaluation module.</li>
-<li>Support vertex data</li>
-</ul></article></body></html>
+<p><img alt="Top classfication weights" src="///D://My_Codes/virtualenv_eslearn/Lib/site-packages/eslearn/img/wei.jpg" /> 
+<br> <br /></p></article></body></html>

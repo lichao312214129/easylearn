@@ -112,13 +112,6 @@ If the program runs successfully, some results file will be generated under the 
 ![Top classfication weights](./img/wei.jpg) 
 <br> <br />
 
-
-# History
-## version 1.0.27
-- Updated binomial test
-
-
-
 # New features in the next version
 - Add evaluation method in the model_evaluation module for multiple-class classification
 - Add user-defined cross-validation in the model_evaluation module.
