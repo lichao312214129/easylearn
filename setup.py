@@ -14,7 +14,7 @@ with open("README_pypi.md", "r") as fh:
 
 setup(
     name='eslearn',
-    version='1.0.29',
+    version='1.0.31',
     description=(
         'This project is designed for machine learning in resting-state fMRI field'
     ),
@@ -55,7 +55,10 @@ setup(
         "scipy",
         'seaborn',
         'requests',
-        'progressbar'
+        'progressbar',
+        "tensorflow",
+        "keras",
+        "netron",
     ],
 
     include_package_data=True,
