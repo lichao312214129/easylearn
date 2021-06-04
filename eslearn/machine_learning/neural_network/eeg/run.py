@@ -14,25 +14,32 @@ import matplotlib.pyplot as plt
 
 class EEGClassifier():
 
-  def __init__(self, configuration_file=None):
+  def __init__(self, configuration_file=None, out_dir=None):
     self.configuration_file = configuration_file
-    self.data_path = os.path.join(self.save_path, "eegclfData.npz")
+    self.out_dir = out_dir
+    self.data_path = os.path.join(out_dir, "eegclfData.npz")
+    
+  def parse_configuration(self):
+    """parse configuration"""
 
-  def prepare_data(self):
-    #%% Prepare data
-    (frequency, self.image_size, self.frame_duration, overlap, locs_2d,
-        self.save_path, self.num_classes, self.batch_size, self.epochs, self.lr, self.decay) =\
+    (self.frequency, self.image_size, self.frame_duration, self.overlap, self.locs_2d,
+        self.num_classes, self.batch_size, self.epochs, self.lr, self.decay) =\
                  parse_configuration(self.configuration_file)
 
+    return self
+
+  def prepare_data(self):
+    """ Prepare data"""
+    self.parse_configuration()
     data_loader = DataLoader_(self.configuration_file)
     data_loader.load_data()
     x, y = make_data_pipeline(data_loader.input_files,
                     data_loader.targets_,
                     self.image_size,
                     self.frame_duration,
-                    overlap,
-                    locs_2d,
-                    frequency)
+                    self.overlap,
+                    self.locs_2d,
+                    self.frequency)
 
     np.savez(self.data_path, x=x, y=y)
     print("=="*30)
@@ -45,7 +52,7 @@ class EEGClassifier():
     print("Training...")
     input_shape = (self.image_size, self.image_size, 3)
 
-    self.trainer = Trainer(save_path=self.save_path)
+    self.trainer = Trainer(out_dir=self.out_dir)
     data = np.load(self.data_path)
     x, y = data['x'],  data['y']
     self.trainer.prep_data(x, y, self.num_classes)
