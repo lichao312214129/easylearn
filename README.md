@@ -118,6 +118,7 @@ If the program runs successfully, some results file will be generated under the 
 > When the input target is a int, eslearn will automatically generate __ID__(np.arange(0,len(nFiles))).
 - version 1.0.30: Added EEGClassifier which is a deep learning machine learning
 - version 1.1.2 Fixed EEGClassifier history problem
+- version 1.1.7 Fixed only one item in list feature_applied_mask problem
 
 
 # New features in the next version
