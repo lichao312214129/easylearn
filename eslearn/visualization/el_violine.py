@@ -6,6 +6,7 @@ This code is copy and revised from https://cloud.tencent.com/developer/article/1
 """
 
 import matplotlib.pyplot as plt
+import pandas as pd
 import seaborn as sns
 import numpy as np
 import mplcyberpunk
@@ -153,6 +154,11 @@ cnames = {
 'yellow':               '#FFFF00',
 'yellowgreen':          '#9ACD32'}
 
+cnames = {
+    'whitesmoke':           'r',
+    'yellow':               'g',
+    'yellowgreen':          'b'
+}
 
 class ViolinPlot(object):
     """This class is used to plot violin
@@ -324,7 +330,7 @@ if __name__ == "__main__":
     data = [np.random.randn(110,), np.random.randn(100,), np.random.randn(100,)]
     violin = ViolinPlot()
     f1 = violin.plot(data, xticklabel=['1111','',''])
-    plt.title("ViolinPlotSeaborn", color="w")
+    plt.title("ViolinPlotSeaborn", color="k")
     plt.show()
     
     ViolinPlotMatplotlib().plot(data, 
